@@ -1,10 +1,12 @@
 import React from 'react'
 import { Home } from '../Pages/Home';
+import OurStory from '../Pages/OurStory';
 
 const Layout = () => {
   return (
-    <div>
+    <div className='mt-65'> 
       <Home/>
+      <OurStory/>
     </div>
   )
 }
