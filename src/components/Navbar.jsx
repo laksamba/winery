@@ -19,7 +19,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="bg-white shadow-md fixed top-0 left-0 w-full z-50">
+    <nav className="bg-white shadow-md  top-0 left-0 w-full z-50">
       {/* Logo Section */}
       <div className="flex justify-center my-8">
         <img src={logo} alt="logo" className="md:h-32 h-20" />
