@@ -5,13 +5,17 @@ import { Link } from 'react-router-dom'
 const OurHistory = () => {
 
   return (
-    <div className='flex'>
+    <div className='flex justify-center items-center h-screen'>
+        {/* images */}
+          <div>
+        <img src={image} alt="" className='h-96' />
+    </div>
 
         
-      <div>
+      <div className='w-[80%]'>
           {/* headings */}
         <div className=" text-center my-9 ">
-        <h2 className="text-[5rem] font-[Playball] text-gray-300 tracking-[0.2em] mb-0 leading-none opacity-70">
+        <h2 className="text-[6rem] font-[Playball] text-gray-300 tracking-[0.1rem] mb-0 leading-none opacity-70">
         ABOUT US
       </h2>
 
@@ -25,17 +29,15 @@ const OurHistory = () => {
       </div>
 
        {/* content  */}
-      <div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quidem perferendis magnam molestiae, itaque incidunt voluptatibus fugiat nisi praesentium animi doloribus! Consequatur aliquid quod laborum?
+      <div className='flex flex-col justify-center items-center gap-12'>
+        <p className='text-2xl text-gray-600 text-center p-3 font-[playfair Display]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, tempora. Lorem ipsum dolor sit amet <br /> consectetur adipisicing elit. Possimus quidem perferendis magnam molestiae, <br /> itaque incidunt voluptatibus fugiat nisi praesentium animi doloribus! <br /> Consequatur aliquid quod laborum?
         </p>
-        <Link>Read More</Link>
+        <Link className='px-8 py-4 bg-[#4c1d29] text-white font-bold rounded-xl'>Read More</Link>
       </div>
       </div>
 
-    {/* image  */}
-    <div>
-        <img src={image} alt="" />
-    </div>
+
+  
 
       
 
