@@ -35,6 +35,28 @@ const wines = [
     price: 35,
     image: "src/assets/images/wine4.jpeg",
   },
+  {
+    id: 5,
+    name: "Deluxe Bottle",
+    subtitle: "Limited Edition",
+    price: 42,
+    image: "src/assets/images/wine1.jpeg",
+
+  },
+  {
+    id: 6,
+    name: "Classic Blend",
+    subtitle: "Signature",
+    price: 28,
+    image:"src/assets/images/wine2.jpeg",
+  },
+  {
+    id: 7,
+    name: "Premium Reserve",
+    subtitle: "Exclusive Batch",
+    price: 55,
+    image: "src/assets/images/wine3.jpeg",
+  },
 ];
 
 export default wines;
