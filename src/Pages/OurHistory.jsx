@@ -30,7 +30,7 @@ const OurHistory = () => {
 
        {/* content  */}
       <div className='flex flex-col justify-center items-center gap-12'>
-        <p className='text-2xl text-gray-600 text-center p-3 font-[playfair Display]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, tempora. Lorem ipsum dolor sit amet <br /> consectetur adipisicing elit. Possimus quidem perferendis magnam molestiae, <br /> itaque incidunt voluptatibus fugiat nisi praesentium animi doloribus! <br /> Consequatur aliquid quod laborum?
+        <p className='text-2xl text-gray-600 text-center p-3 font-paragraph'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, tempora. Lorem ipsum dolor sit amet <br /> consectetur adipisicing elit. Possimus quidem perferendis magnam molestiae, <br /> itaque incidunt voluptatibus fugiat nisi praesentium animi doloribus! <br /> Consequatur aliquid quod laborum?
         </p>
         <Link className='px-8 py-4 bg-[#4c1d29] text-white font-bold rounded-xl'>Read More</Link>
       </div>

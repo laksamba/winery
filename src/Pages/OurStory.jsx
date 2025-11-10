@@ -26,7 +26,7 @@ const OurStory = () => {
            <hr  className="border-2 w-10 border-[#4c1d29]/50"/>
           <h1 className=" text-4xl text-[#4c1d29] font-bold text-right font-[cursive]">1976</h1>
           </div>
-          <p className="text-gray-500 mb-8 text-xl ">Lorem ipsum dolor sit amet consectetur adipisicing elit.  Consequuntur <br /> ratione nobis officia, maxime molestiae quis qui <br /> sunt earum mollitia maiores?</p>
+          <p className="text-gray-500 mb-8 text-xl font-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.  Consequuntur <br /> ratione nobis officia, maxime molestiae quis qui <br /> sunt earum mollitia maiores?</p>
         </div>
        
        {/* images section */}
