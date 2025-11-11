@@ -15,7 +15,7 @@ export default function WineShop() {
       <h3 className="text-4xl font-bold text-[#4c1d29] -mt-14 mb-14 relative">
         <div className="flex justify-center items-center">
           <hr className="border-2 w-14 border-[#4c1d29]/50" />
-          <span className="bg-transparent px-6 relative z-10 font-[cursive]">
+          <span className="bg-transparent px-6 relative z-10 font-[playball]">
             Our Wines
           </span>
           <hr className="border-2 w-14 border-[#4c1d29]/50" />

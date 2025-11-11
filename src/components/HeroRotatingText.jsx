@@ -35,9 +35,7 @@ const HeroRotatingText = () => {
         <h2 className="text-3xl md:text-4xl font-light tracking-wide">
           We Make{" "}
           <span
-            className={`${fonts[currentFontIndex]} text-pink-500 text-5xl md:text-6xl transition-all duration-700 ease-in-out`}
-          >
-            Lovely
+            className={`${fonts[currentFontIndex]} text-pink-500 text-5xl md:text-6xl transition-all duration-700 ease-in-out`}> Lovely
           </span>{" "}
           Wines
         </h2>
