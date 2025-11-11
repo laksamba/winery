@@ -8,11 +8,11 @@ import wines from "../components/data/wines";
 export default function WineShop() {
   return (
     <section className="py-20 bg-white text-center relative">
-      <h2 className="md:text-[5rem] text-[3rem] font-[Playball] text-gray-200 tracking-[0.2em] mb-0 leading-none opacity-70">
+      <h2 className="md:text-[6rem] text-[3rem] font-[Playfair] text-gray-200 tracking-[0.2em] mb-0 leading-none opacity-70">
         SHOP NOW
       </h2>
 
-      <h3 className="md:text-4xl text-2xl font-bold text-[#4c1d29] md:-mt-16 -mt-11 md:mb-14 mb-10 relative">
+      <h3 className="md:text-5xl text-2xl font-bold text-[#4c1d29] md:-mt-18 -mt-11 md:mb-14 mb-10 relative">
         <div className="flex justify-center items-center">
           <hr className="border-2 md:w-14 w-9 border-[#4c1d29]/50" />
           <span className="bg-transparent md:px-6 px-3 relative font-[playball]">

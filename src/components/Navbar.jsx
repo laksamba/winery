@@ -27,7 +27,7 @@ const Navbar = () => {
       </div>
 
       {/* Navigation Bar */}
-      <div className="relative  container bg-white md:mx-auto flex justify-end px-4  md:justify-center items-center">
+      <div className="relative  bg-white md:mx-auto flex justify-end px-4  md:justify-center items-center">
         {/* Desktop Links */}
         <div className="hidden md:flex  space-x-10 font-[playfair] ">
           {navItems.map((item, index) => {

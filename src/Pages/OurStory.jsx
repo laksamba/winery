@@ -5,11 +5,11 @@ const OurStory = () => {
   return (
     <div className=" ">
       <div className=" text-center my-9 ">
-        <h2 className="md:text-[5rem] text-[3.5rem]  text-gray-300 tracking-[0.2em] mb-0 leading-none opacity-70">
+        <h2 className="md:text-[6rem] text-[3.5rem] font-[Playfair]  text-gray-300 tracking-[0.2em] mb-0 leading-none opacity-70">
           HISTORY
         </h2>
 
-        <h3 className="md:text-4xl text-3xl font-bold text-[#4c1d29] md:-mt-16 -mt-12 mb-14 relative">
+        <h3 className="md:text-5xl text-3xl font-bold text-[#4c1d29] md:-mt-18 -mt-12 mb-14 relative">
           <div className="flex justify-center items-center">
             <hr className="border-2 md:w-14 w-8 border-[#4c1d29]/50" />
             <span className="bg-transparent px-2 relative  font-[playball]">
@@ -96,8 +96,7 @@ const OurStory = () => {
             </h1>
           </div>
           <p className="text-gray-500 text-base lg:text-xl font-paragraph leading-relaxed">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consequuntur <br className="hidden lg:block" />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur <br className="hidden lg:block" />
             ratione nobis officia, maxime molestiae quis qui{" "}
             <br className="hidden lg:block" />
             sunt earum mollitia maiores?
