@@ -8,17 +8,17 @@ import wines from "../components/data/wines";
 export default function WineShop() {
   return (
     <section className="py-20 bg-white text-center relative">
-      <h2 className="text-[5rem]  text-gray-200 tracking-[0.2em] mb-0 leading-none opacity-70">
+      <h2 className="md:text-[5rem] text-[3rem] font-[Playball] text-gray-200 tracking-[0.2em] mb-0 leading-none opacity-70">
         SHOP NOW
       </h2>
 
-      <h3 className="text-4xl font-bold text-[#4c1d29] -mt-14 mb-14 relative">
+      <h3 className="md:text-4xl text-2xl font-bold text-[#4c1d29] md:-mt-16 -mt-11 md:mb-14 mb-10 relative">
         <div className="flex justify-center items-center">
-          <hr className="border-2 w-14 border-[#4c1d29]/50" />
-          <span className="bg-transparent px-6 relative z-10 font-[playball]">
+          <hr className="border-2 md:w-14 w-9 border-[#4c1d29]/50" />
+          <span className="bg-transparent md:px-6 px-3 relative font-[playball]">
             Our Wines
           </span>
-          <hr className="border-2 w-14 border-[#4c1d29]/50" />
+          <hr className="border-2 md:w-14 w-9 border-[#4c1d29]/50" />
         </div>
       </h3>
 
@@ -34,12 +34,11 @@ export default function WineShop() {
             640: { slidesPerView: 2 },
             1024: { slidesPerView: 3 },
             1280: { slidesPerView: 4 },
-          }}
-        >
+          }} className="w-95 md:w-full" >
           {wines.map((wine) => (
-            <SwiperSlide key={wine.id}>
+            <SwiperSlide key={wine.id} >
               <div
-                className="bg-[#4c1d29] rounded-lg overflow-hidden relative text-white border-4 border-[#4c1d29]"
+                className="bg-[#4c1d29] rounded-lg overflow-hidden relative text-white border-4 border-[#4c1d29] "
               >
                 {wine.sale && (
                   <>
@@ -56,7 +55,7 @@ export default function WineShop() {
                   <img
                     src={wine.image}
                     alt={wine.name}
-                    className="h-64 object-contain"
+                    className="h-60 object-contain"
                     loading="lazy"
                   />
                 </div>
