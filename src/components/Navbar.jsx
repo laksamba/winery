@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-import logo from "../assets/Images/logo.jpg";
+import logo from "../assets/Images/logo.png";
+import banner from '../assets/Images/wine.avif'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,14 +20,14 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="bg-white shadow-md  top-0 left-0 w-full z-50">
+    <nav className="bg-cover shadow-md  top-0 left-0 w-full z-50" style={{backgroundImage:`url(${banner})`}}>
       {/* Logo Section */}
-      <div className="flex justify-center my-8">
+      <div className="flex justify-center md:py-8 py-4">
         <img src={logo} loading="lazy" alt="logo" className="md:h-32 h-20" />
       </div>
 
       {/* Navigation Bar */}
-      <div className="relative  container bg-gray-200 md:mx-auto flex justify-end px-4  md:justify-center items-center">
+      <div className="relative  container bg-white md:mx-auto flex justify-end px-4  md:justify-center items-center">
         {/* Desktop Links */}
         <div className="hidden md:flex  space-x-10 font-[playfair] ">
           {navItems.map((item, index) => {
