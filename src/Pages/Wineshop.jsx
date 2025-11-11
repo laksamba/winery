@@ -8,7 +8,7 @@ import wines from "../components/data/wines";
 export default function WineShop() {
   return (
     <section className="py-20 bg-white text-center relative">
-      <h2 className="text-[5rem] font-[Playball] text-gray-200 tracking-[0.2em] mb-0 leading-none opacity-70">
+      <h2 className="text-[5rem]  text-gray-200 tracking-[0.2em] mb-0 leading-none opacity-70">
         SHOP NOW
       </h2>
 

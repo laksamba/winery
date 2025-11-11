@@ -22,13 +22,13 @@ const Navbar = () => {
     <nav className="bg-white shadow-md  top-0 left-0 w-full z-50">
       {/* Logo Section */}
       <div className="flex justify-center my-8">
-        <img src={logo} alt="logo" className="md:h-32 h-20" />
+        <img src={logo} loading="lazy" alt="logo" className="md:h-32 h-20" />
       </div>
 
       {/* Navigation Bar */}
       <div className="relative  container bg-gray-200 md:mx-auto flex justify-end px-4  md:justify-center items-center">
         {/* Desktop Links */}
-        <div className="hidden md:flex  space-x-10 ">
+        <div className="hidden md:flex  space-x-10 font-[playfair] ">
           {navItems.map((item, index) => {
             const isActive = location.pathname === item.path;
             return (
