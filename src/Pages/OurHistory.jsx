@@ -8,14 +8,14 @@ const OurHistory = () => {
       <div className="w-[60%] ">
         {/* headings */}
         <div className=" text-center my-9 ">
-          <h2 className="text-[6rem] font-[Playball] text-gray-300 tracking-[0.1rem] mb-0 leading-none opacity-70">
+          <h2 className="text-[6rem]  text-gray-300 tracking-[0.1rem] mb-0 leading-none opacity-70">
             ABOUT US
           </h2>
 
           <h3 className="text-4xl font-bold text-[#4c1d29] -mt-16 mb-14 relative">
             <div className="flex justify-center items-center">
               <hr className="border-2 w-14 border-[#4c1d29]/50" />
-              <span className="bg-transparent px-2 relative  font-[cursive]">
+              <span className="bg-transparent px-2 relative  playball ">
                 Our History
               </span>
               <hr className="border-2 w-14 border-[#4c1d29]/50" />
@@ -40,7 +40,7 @@ const OurHistory = () => {
 
       {/* images */}
       <div>
-        <img src={image} alt="" className="h-96" />
+        <img src={image} loading="lazy" alt="image" className="h-96" />
       </div>
     </div>
   );

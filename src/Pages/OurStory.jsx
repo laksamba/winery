@@ -5,14 +5,14 @@ const OurStory = () => {
   return (
     <div className=" ">
       <div className=" text-center my-9 ">
-        <h2 className="text-[5rem] font-[Playball] text-gray-300 tracking-[0.2em] mb-0 leading-none opacity-70">
+        <h2 className="text-[5rem]  text-gray-300 tracking-[0.2em] mb-0 leading-none opacity-70">
           HISTORY
         </h2>
 
         <h3 className="text-4xl font-bold text-[#4c1d29] -mt-16 mb-14 relative">
           <div className="flex justify-center items-center">
             <hr className="border-2 w-14 border-[#4c1d29]/50" />
-            <span className="bg-transparent px-2 relative  font-[cursive]">
+            <span className="bg-transparent px-2 relative  font-[playball]">
               Our Story
             </span>
             <hr className="border-2 w-14 border-[#4c1d29]/50" />
@@ -25,7 +25,7 @@ const OurStory = () => {
         <div className=" flex flex-col justify-center bg-white w-[50%] h-80 z-10 -mr-30  p-6 shadow-lg ml-16">
           <div className=" flex items-center justify-end mb-4 gap-1">
             <hr className="border-2 w-10 border-[#4c1d29]/50" />
-            <h1 className=" text-4xl text-[#4c1d29] font-bold text-right font-[cursive]">
+            <h1 className=" text-4xl text-[#4c1d29] font-bold text-right font-[playball]">
               1976
             </h1>
           </div>
@@ -38,7 +38,7 @@ const OurStory = () => {
 
         {/* images section */}
         <div className="w-[45%] bg-amber-800  h-[500px] ">
-          <img src={image} alt="image" className="object-center h-full" />
+          <img src={image} loading="lazy" alt="image" className="object-center h-full" />
         </div>
       </div>
 
@@ -47,7 +47,7 @@ const OurStory = () => {
       <div className="flex items-center relative text-left mt-24 ">
         {/* images section */}
         <div className="w-[45%] bg-amber-800  h-[500px] ml-16 ">
-          <img src={image} alt="image" className="object-center h-full" />
+          <img src={image} loading="lazy" alt="image" className="object-center h-full" />
         </div>
 
 
@@ -56,7 +56,7 @@ const OurStory = () => {
         <div className=" flex flex-col justify-center bg-white w-[50%] h-80 z-10 -ml-30  p-6 shadow-lg ">
           
           <div className=" flex items-center justify-start mb-4 gap-1">
-            <h1 className=" text-4xl text-[#4c1d29] font-bold text-left font-[cursive]">
+            <h1 className=" text-4xl text-[#4c1d29] font-bold text-left font-[playball]">
               1976
             </h1>
             <hr className="border-2 w-10 border-[#4c1d29]/50" />
@@ -74,7 +74,7 @@ const OurStory = () => {
         <div className=" flex flex-col justify-center bg-white w-[50%] h-80 z-10 -mr-30  p-6 shadow-lg ml-16">
           <div className=" flex items-center justify-end mb-4 gap-1">
             <hr className="border-2 w-10 border-[#4c1d29]/50" />
-            <h1 className=" text-4xl text-[#4c1d29] font-bold text-right font-[cursive]">
+            <h1 className=" text-4xl text-[#4c1d29] font-bold text-right font-[playball]">
               1976
             </h1>
           </div>
@@ -87,7 +87,7 @@ const OurStory = () => {
 
         {/* images section */}
         <div className="w-[45%] bg-amber-800  h-[500px] ">
-          <img src={image} alt="image" className="object-center h-full" />
+          <img src={image} loading="lazy" alt="image" className="object-center h-full" />
         </div>
       </div>
     </div>
