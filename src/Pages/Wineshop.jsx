@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules"; 
+import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import wines from "../components/data/wines";
@@ -12,7 +12,7 @@ export default function WineShop() {
         SHOP NOW
       </h2>
 
-      <h3 className="md:text-5xl text-2xl font-bold text-[#4c1d29] md:-mt-18 -mt-11 md:mb-14 mb-10 relative">
+      <h3 className="md:text-5xl text-3xl font-bold text-[#4c1d29] md:-mt-18 -mt-11 md:mb-14 mb-10 relative">
         <div className="flex justify-center items-center">
           <hr className="border-2 md:w-14 w-9 border-[#4c1d29]/50" />
           <span className="bg-transparent md:px-6 px-3 relative font-[playball]">
@@ -22,24 +22,25 @@ export default function WineShop() {
         </div>
       </h3>
 
-      <div className="max-w-[1200px]  mx-auto"> 
+      <div className="max-w-[1200px]  mx-auto">
         <Swiper
           modules={[Navigation]}
           navigation
-          spaceBetween={15}   
+          spaceBetween={15}
           slidesPerView={4}
-          loop={false}         
+          loop={false}
+          lazy={true}
           breakpoints={{
             320: { slidesPerView: 1 },
             640: { slidesPerView: 2 },
             1024: { slidesPerView: 3 },
             1280: { slidesPerView: 4 },
-          }} className="w-95 md:w-full" >
+          }}
+          className="w-85 md:w-full hidden"
+        >
           {wines.map((wine) => (
-            <SwiperSlide key={wine.id} >
-              <div
-                className="bg-[#4c1d29] rounded-lg overflow-hidden relative text-white border-4 border-[#4c1d29] "
-              >
+            <SwiperSlide key={wine.id}>
+              <div className="bg-[#4c1d29] rounded-lg overflow-hidden relative text-white border-4 border-[#4c1d29] ">
                 {wine.sale && (
                   <>
                     <div className="absolute top-2 left-2 bg-[#4c1d29] px-2 py-1 text-xs uppercase rounded">
@@ -94,8 +95,14 @@ export default function WineShop() {
             .swiper-button-next::after, .swiper-button-prev::after {
               font-size: 16px ;
             }
+            @media (max-width: 767px) {
+       .swiper-button-next,
+        .swiper-button-prev {
+      display: none;
+    }
+  }
           `}
-          </style>
+        </style>
       </div>
     </section>
   );
