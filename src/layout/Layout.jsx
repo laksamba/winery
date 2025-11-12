@@ -4,6 +4,7 @@ import OurStory from "../Pages/OurStory";
 import WineShop from "../Pages/Wineshop";
 import HeroRotatingText from "../components/HeroRotatingText";
 import OurHistory from "../Pages/OurHistory";
+import WineClub from "../Pages/WineClub";
 
 const Layout = () => {
   return (
@@ -12,6 +13,7 @@ const Layout = () => {
       <WineShop />
       <OurStory />
       <OurHistory />
+      <WineClub/>
     </div>
   );
 };
