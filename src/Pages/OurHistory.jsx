@@ -33,7 +33,7 @@ const OurHistory = () => {
         itaque incidunt voluptatibus fugiat nisi praesentium animi doloribus! <br className="hidden sm:block" />
         
       </p>
-      <Link className="px-6 sm:px-8 py-3 sm:py-4 bg-[#4c1d29] text-white font-bold rounded-xl text-sm sm:text-base">
+      <Link className="px-6 sm:px-8 py-3 sm:py-4 bg-[#4c1d29] text-white font-[Plaifair] rounded-sm font-bold md:text-xl sm:text-base hover:bg-[#84293e]  transition-all  hover:scale-110">
         Read More
       </Link>
     </div>

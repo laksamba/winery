@@ -26,20 +26,20 @@ const Footer = () => {
       </div>
 
       {/* icons */}
-      <div className="flex gap-4 my-6 text-white">
-        <div className=" border-2 border-[white] p-3 rounded-full">
+      <div className="flex md:gap-4 gap-2 my-6 text-white">
+        <div className=" border-2 border-[white] p-1 md:p-3 rounded-full">
           <FaFacebook size={20} />
         </div>
-        <div className=" border-2 border-[white] p-3 rounded-full">
+        <div className=" border-2 border-[white] p-1 md:p-3 rounded-full">
           <FaTwitter size={20} />
         </div>
-        <div className=" border-2 border-[white] p-3 rounded-full">
+        <div className=" border-2 border-[white] p-1 md:p-3 rounded-full">
           <FaInstagram size={20} />
         </div>
-        <div className=" border-2 border-[white] p-3 rounded-full">
+        <div className=" border-2 border-[white] p-1 md:p-3 rounded-full">
           <FaSkype size={20} />
         </div>
-        <div className=" border-2 border-[white] p-3 rounded-full">
+        <div className=" border-2 border-[white] p-1 md:p-3 rounded-full">
           <FaLinkedinIn size={20} />
         </div>
       </div>
