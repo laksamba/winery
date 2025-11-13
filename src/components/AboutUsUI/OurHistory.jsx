@@ -1,10 +1,10 @@
 import React from "react";
-import image from "../assets/Images/Grapes.jpg";
+import image from '../../assets/Images/Grapes.jpg';
 import { Link } from "react-router-dom";
 
 const OurHistory = () => {
   return (
-   <div className="flex flex-col lg:flex-row justify-center items-center min-h-screen px-4 py-12 lg:py-0 gap-8 lg:gap-0">
+   <div className="flex flex-col lg:flex-row justify-center items-center my-12  px-4 py-12 lg:py-0 gap-8 lg:gap-0">
   {/* Text Content */}
   <div className="w-full lg:w-[60%] text-center">
     {/* headings */}

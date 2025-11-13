@@ -1,9 +1,9 @@
 import React from "react";
-import image from "../assets/Images/wineHistory.png";
+import image from "../../assets/Images/wineHistory.png";
 
 const OurStory = () => {
   return (
-    <div className=" ">
+    <div className="  ">
       <div className=" text-center my-9 ">
         <h2 className="md:text-[6rem] text-[3.5rem] font-[Playfair]  text-gray-300 tracking-[0.2em] mb-0 leading-none opacity-70">
           HISTORY
@@ -18,6 +18,36 @@ const OurStory = () => {
             <hr className="border-2 md:w-14 w-8 border-[#4c1d29]/50" />
           </div>
         </h3>
+      </div>
+
+
+       <div className="flex flex-col-reverse md:flex-row items-center relative text-left mt-12 md:mt-24">
+        {/* Image Section */}
+        <div className="w-full md:w-[45%] h-[300px] md:h-[500px] md:ml-16 order-2 md:order-1">
+          <img
+            src={image}
+            loading="lazy"
+            alt="image"
+            className="w-full h-full object-cover object-center"
+          />
+        </div>
+
+        {/* Content Section */}
+        <div className="flex flex-col justify-center bg-white w-[80%] md:w-[52%]  h-auto md:h-80 z-10 -mt-20 md:mt-0 md:-ml-30 p-6 md:p-8 shadow-lg order-1 md:order-2">
+          <div className="flex items-center justify-start mb-4 gap-1">
+            <h1 className="text-3xl md:text-4xl text-[#4c1d29] font-bold font-[playball]">
+              1986
+            </h1>
+            <hr className="border-2 w-10 border-[#4c1d29]/50" />
+          </div>
+          <p className="text-gray-500 text-base md:text-xl font-paragraph leading-relaxed">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur <br className="hidden md:block" />
+            ratione nobis officia, maxime molestiae quis qui{" "}
+            <br className="hidden md:block" />
+            sunt earum mollitia maiores?
+          </p>
+        </div>
       </div>
 
       {/*-------------------------- containers  1st-----------------------*/}
@@ -44,7 +74,7 @@ const OurStory = () => {
         </div>
 
         {/* Image Section */}
-        <div className="w-full md:w-[45%] h-64 md:h-[500px] bg-amber-800 order-1 md:order-2">
+        <div className="w-full md:w-[47%] h-64 md:h-[500px] bg-amber-800 order-1 md:order-2">
           <img
             src={image}
             loading="lazy"
@@ -68,7 +98,7 @@ const OurStory = () => {
         </div>
 
         {/* Content Section */}
-        <div className="flex flex-col justify-center bg-white w-[80%] md:w-[50%]  h-auto md:h-80 z-10 -mt-20 md:mt-0 md:-ml-30 p-6 md:p-8 shadow-lg order-1 md:order-2">
+        <div className="flex flex-col justify-center bg-white w-[80%] md:w-[52%]  h-auto md:h-80 z-10 -mt-20 md:mt-0 md:-ml-30 p-6 md:p-8 shadow-lg order-1 md:order-2">
           <div className="flex items-center justify-start mb-4 gap-1">
             <h1 className="text-3xl md:text-4xl text-[#4c1d29] font-bold font-[playball]">
               1986
@@ -109,7 +139,7 @@ const OurStory = () => {
         </div>
 
         {/* Image Section */}
-        <div className="w-full md:w-[45%] h-64 md:h-[500px] bg-amber-800 order-1 md:order-2">
+        <div className="w-full md:w-[47%] h-64 md:h-[500px] bg-amber-800 order-1 md:order-2">
           <img
             src={image}
             loading="lazy"
