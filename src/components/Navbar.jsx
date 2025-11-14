@@ -29,14 +29,14 @@ const Navbar = () => {
       {/* Navigation Bar */}
       <div className="relative  bg-white md:mx-auto flex justify-end px-4  md:justify-center items-center">
         {/* Desktop Links */}
-        <div className="hidden md:flex  space-x-10 font-[playfair] ">
+        <div className="hidden md:flex  space-x-10  font-[playfair] ">
           {navItems.map((item, index) => {
             const isActive = location.pathname === item.path;
             return (
               <Link
                 key={index}
                 to={item.path}
-                className={`relative  rounded-sm -top-3 text-lg md:text-xl font-medium transition duration-200 pt-7 pb-2 px-5 ${
+                className={`relative  rounded-sm -top-3 text-lg md:text-md  tracking-[0.3rem]  transition duration-200 pt-7 pb-2 px-5 ${
                   isActive
                     ? "bg-[#4c1d29] text-white "
                     : "text-gray-700 hover:text-blue-600"
