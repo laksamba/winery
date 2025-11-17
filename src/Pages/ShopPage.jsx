@@ -30,7 +30,7 @@ export default function ShopPage() {
         <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
           {/* Header */}
           <div className="text-center mb-16">
-            <h1 className="text-5xl md:text-6xl font-bold font-[Playfair] text-[#4c1d29] tracking-wider">
+            <h1 className="text-4xl md:text-6xl font-bold font-[Playfair] text-[#4c1d29] tracking-wider">
               THE WINE COLLECTION
             </h1>
           </div>
@@ -52,7 +52,7 @@ export default function ShopPage() {
               <select
                 value={filterType}
                 onChange={(e) => setFilterType(e.target.value)}
-                className="px-8 py-4 bg-[#4c1d29] backdrop-blur-sm rounded-full border border-[#4c1d29] focus:border-[#4c1d29] focus:outline-none text-white font-medium cursor-pointer transition-all"
+                className="px-8 py-4 bg-[#4c1d29] font-[playfair] backdrop-blur-sm rounded-full border border-[#4c1d29] focus:border-[#4c1d29] focus:outline-none text-white font-medium cursor-pointer transition-all"
               >
                 <option value="all">All Wines</option>
                 <option value="Red Wine">Red</option>
@@ -102,7 +102,7 @@ export default function ShopPage() {
                       e.stopPropagation(); 
                       setSelectedWine(wine);
                     }}
-                    className="px-8 py-3 bg-transparent border-2 border-[#4c1d29] text-[#4c1d29] rounded-full hover:bg-[#4c1d29] hover:text-white transition-all font-medium"
+                    className="px-8 py-3 bg-transparent font-[playfair] border-2 border-[#4c1d29] text-[#4c1d29] rounded-full hover:bg-[#4c1d29] hover:text-white transition-all font-medium"
                   >
                     View Details
                   </button>

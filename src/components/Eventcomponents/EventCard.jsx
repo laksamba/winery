@@ -71,7 +71,7 @@ const EventCard = () => {
 
             <span className="text-sm opacity-80 block my-3">{items.date}</span>
 
-            <p className="text-base line-clamp-2  leading-relaxed my-4">
+            <p className="text-base line-clamp-2 text-gray-600 font-[playfair] leading-relaxed my-4">
               {items.description}
             </p>
 

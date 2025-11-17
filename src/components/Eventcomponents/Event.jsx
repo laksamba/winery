@@ -24,7 +24,7 @@ const Event = () => {
           </h3>
         </div>
         <div className="flex justify-center items-center">
-          <p className="line-clamp-3 w-full text-center">
+          <p className="line-clamp-3 w-full lg:text-xl  font-[playfair] text-gray-600  text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
             minimasunt molestiae exercitationem <br />
             in nisi perferendis hic quo modi assumenda error reiciendis
@@ -55,7 +55,7 @@ const Event = () => {
               </div>
             </h3>
 
-            <p className="text-lg lg:text-xl text-gray-600 leading-relaxed max-w-lg mx-auto lg:mx-0 mb-10">
+            <p className="text-lg lg:text-xl font-[playfair] text-gray-600 leading-relaxed max-w-lg mx-auto lg:mx-0 mb-10">
               Experience the finest wines from around the world, curated by our
               sommeliers. Limited allocations, private tastings, and
               unforgettable vineyard journeys await.
@@ -121,7 +121,7 @@ const Event = () => {
             </h3>
 
 
-            <p className="text-lg lg:text-xl text-gray-600 leading-relaxed max-w-lg mx-auto lg:mx-0 mb-10">
+            <p className="text-lg font-[playfair] lg:text-xl text-gray-600 leading-relaxed max-w-lg mx-auto lg:mx-0 mb-10">
               Experience the finest wines from around the world, curated by our
               sommeliers. Limited allocations, private tastings, and
               unforgettable vineyard journeys await.
@@ -143,7 +143,7 @@ const Event = () => {
             <div className="flex justify-center lg:justify-start">
               <Link
                 to="/join"
-                className="inline-flex items-center gap-3 px-6 md:px-8 py-4 bg-[#4c1d29] text-white font-bold text-lg rounded-sm hover:bg-[#84293e] transition-all hover:scale-105 shadow-lg"
+                className="inline-flex items-center gap-3 font-[playfair] px-6 md:px-8 py-4 bg-[#4c1d29] text-white font-bold text-lg rounded-sm hover:bg-[#84293e] transition-all hover:scale-105 shadow-lg"
               >
                 <Book size={22} />
                 Book Now

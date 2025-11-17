@@ -10,7 +10,7 @@ export default function ProductCard({ wine, onClose }) {
       onClick={onClose}
     >
       <div
-        className="relative bg-white rounded-3xl shadow-2xl max-w-5xl w-full h-auto md:h-screen my-8 overflow-hidden"
+        className="relative bg-white rounded-3xl shadow-2xl max-w-5xl w-full h-full md:h-screen my-8 overflow-hidden"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Close button */}
@@ -23,11 +23,11 @@ export default function ProductCard({ wine, onClose }) {
 
         <div className="grid md:grid-cols-2 h-full">
           {/* Image Section */}
-          <div className="relative bg-gray-100 h-[300px] md:h-full">
+          <div className="relative  h-full  md:h-full">
             <img
               src={wine.image}
               alt={wine.name}
-              className="w-full h-full object-cover"
+              className="w-full  h-full object-cover"
             />
 
             {wine.bestseller && (
@@ -68,7 +68,7 @@ export default function ProductCard({ wine, onClose }) {
 
             {/* Type Badge */}
             <div>
-              <span className="inline-block px-4 py-2 bg-[#4c1d29] text-white rounded-full text-xs md:text-sm font-semibold">
+              <span className="inline-block px-4 py-2 font-[playfair] bg-[#4c1d29] text-white rounded-full text-xs md:text-sm font-semibold">
                 {wine.type}
               </span>
             </div>

@@ -23,7 +23,7 @@ const Contact = () => {
           </h3>
         </div>
         <div className="text-center">
-          <p className="mt-4 text-lg text-[#4c1d29] max-w-2xl mx-auto">
+          <p className="mt-4 lg:text-xl text-gray-500 max-w-2xl mx-auto">
             We'd love to hear from you. Our team is here to help with inquiries,
             wine recommendations, and event bookings.
           </p>
@@ -108,7 +108,7 @@ const Contact = () => {
                 <div className="inline-flex items-center justify-center w-14 h-14 bg-white rounded-full mb-4">
                   <item.icon className="w-7 h-7 text-[#4c1d29]" />
                 </div>
-                <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-2">
+                <h3 className="text-sm font-semibold font-[playfair] text-white uppercase tracking-wider mb-2">
                   {item.title}
                 </h3>
                 <p className="text-white whitespace-pre-line text-sm leading-relaxed">

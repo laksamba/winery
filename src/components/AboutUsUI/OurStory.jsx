@@ -3,7 +3,7 @@ import image from "../../assets/Images/wineHistory.png";
 
 const OurStory = () => {
   return (
-    <div className="  ">
+    <div className=" my-20 ">
       <div className=" text-center my-9 ">
         <h2 className="md:text-[6rem] text-[3.5rem] font-[Playfair]  text-gray-300 tracking-[0.2em] mb-0 leading-none opacity-70">
           HISTORY
