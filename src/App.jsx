@@ -7,6 +7,8 @@ import About from './Pages/About'
 import FaqPage from './Pages/FaqPage'
 import Event from './components/Eventcomponents/Event'
 import EventCard from './components/Eventcomponents/EventCard'
+import Contact from './Pages/Contact'
+import ShopPage from './Pages/ShopPage'
 
 function App() {
  
@@ -19,7 +21,9 @@ function App() {
     <Route path='/about' element={<About/>}/>
     <Route path='/faq' element={<FaqPage/>}/>
     <Route path='/events' element={<Event/>}/>
-    <Route path='/card' element={<EventCard/>}/>
+    <Route path='/blog' element={<EventCard/>}/>
+    <Route path='/contact' element={<Contact/>}/>
+    <Route path='/shop' element={<ShopPage/>}/>
    </Routes>
    <Footer/>
    
